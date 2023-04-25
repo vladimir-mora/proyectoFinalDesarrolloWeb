@@ -1,0 +1,160 @@
+//extend
+.foto {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+}
+// extend de creatinas
+.foto-creatina_star {
+    @extend .foto;
+    background-image: url(../img/creatinas/star.jpg);
+}
+
+.foto-creatina_gold {
+    @extend.foto;
+    background-image: url(../img/creatinas/gold.jpg);
+}
+
+.foto-creatina_gentech {
+    @extend.foto;
+    background-image: url(../img/creatinas/gentech.jpg);
+}
+
+.foto-creatina_ena {
+    @extend.foto;
+    background-image: url(../img/creatinas/ena.jpg);
+}
+
+.foto-creatina_nutrilab {
+    @extend.foto;
+    background-image: url(../img/creatinas/nutrilab.jpg);
+}
+
+.foto-creatina_ultra {
+    @extend.foto;
+    background-image: url(../img/creatinas/ultra.jpg);
+}
+
+.foto-creatina_xtreme {
+    @extend.foto;
+    background-image: url(../img/creatinas/xtreme.jpg);
+}
+
+.foto-creatina_body {
+    @extend.foto;
+    background-image: url(../img/creatinas/body.jpg);
+}
+
+.foto-creatina_growth {
+    @extend.foto;
+    background-image: url(../img/creatinas/growth.jpg);
+}
+
+
+// extend de proteinas
+.foto-proteina_star {
+    @extend.foto;
+    background-image: url(../img/proteinas/star.jpg);
+}
+
+.foto-proteina_gold {
+    @extend.foto;
+    background-image: url(../img/proteinas/gold.jpg);
+}
+
+.foto-proteina_gentech {
+    @extend.foto;
+    background-image: url(../img/proteinas/gentech.jpg);
+}
+
+.foto-proteina_ena {
+    @extend.foto;
+    background-image: url(../img/proteinas/ena.jpg);
+}
+
+.foto-proteina_nutrilab {
+    @extend.foto;
+    background-image: url(../img/proteinas/nutrilab.jpg);
+}
+
+.foto-proteina_ultra {
+    @extend.foto;
+    background-image: url(../img/proteinas/ultra.jpg);
+}
+
+.foto-proteina_xtreme {
+    @extend.foto;
+    background-image: url(../img/proteinas/xtreme.jpg);
+}
+
+.foto-proteina_body {
+    @extend.foto;
+    background-image: url(../img/proteinas/body.jpg);
+}
+
+.foto-proteina_growth {
+    @extend.foto;
+    background-image: url(../img/proteinas/growth.jpg);
+}
+
+
+//extend de pre-entrenos
+.foto-pre_star {
+    @extend.foto;
+    background-image: url(../img/pre-entrenos/star.jpg);
+}
+
+.foto-pre_gold {
+    @extend.foto;
+    background-image: url(../img/pre-entrenos/gold.jpg);
+}
+
+.foto-pre_gentech {
+    @extend.foto;
+    background-image: url(../img/pre-entrenos/gentech.jpg);
+}
+
+.foto-pre_ena {
+    @extend.foto;
+    background-image: url(../img/pre-entrenos/ena.jpg);
+}
+
+.foto-pre_nutrilab {
+    @extend.foto;
+    background-image: url(../img/pre-entrenos/nutilab.jpg);
+}
+
+.foto-pre_ultra {
+    @extend.foto;
+    background-image: url(../img/pre-entrenos/ultra.jpg);
+}
+
+.foto-pre_xtreme {
+    @extend.foto;
+    background-image: url(../img/pre-entrenos/xtreme.jpg);
+}
+
+.foto-pre_body {
+    @extend.foto;
+    background-image: url(../img/pre-entrenos/body.jpg);
+}
+
+.foto-pre_growth {
+    @extend.foto;
+    background-image: url(../img/pre-entrenos/growth.jpg);
+}
+
+
+
+
+
+
+
+//mixins
+@mixin flex ($dire,$justy,$align){
+    display: flex;
+    flex-direction: $dire;
+    justify-content: $justy;
+    align-items: $align;
+}

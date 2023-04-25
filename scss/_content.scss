@@ -1,0 +1,102 @@
+body {
+    background-color: $color-negro;
+    color: $color-blanco;
+}
+
+
+// header
+header {
+    background-color: $color-naranja;
+    p {
+        font-weight: $text-bold;
+    }
+}
+
+
+// barra nav
+nav {
+    .logo {
+        font-family: $text-titulos;
+        color: $color-naranja;
+    }
+
+    .links {
+        font-size: 1.5em;
+        color: $color-blanco;
+        font-weight: $text-light;
+            &:hover{
+                color: $color-naranja;
+            }
+    }
+
+    hr {
+        border: none;
+        height: 1px;
+        background-color: $color-naranja;
+        @media (min-width: 768px) {
+            display: none;
+        }
+    }
+
+}
+
+
+//footer
+footer {
+    .contenedor {
+        height: 5vh;
+        @include flex (row,space-around,center);
+            p {
+                margin-top: 15px;
+                margin-left: 12px;
+                font-size: .9em;
+            }
+
+            .iconos {
+                width: auto;
+                .fa-brands {
+                    padding-right: 15px;
+                    cursor: pointer;
+                    &:hover {
+                        color: $color-naranja;
+                    }
+                }
+            }
+    }
+}
+
+// el main de creatinas,proteinas,pre-entrenos y post-entrenos
+
+#contenedor{
+    .container {
+        h2 {
+            color: $color-naranja;
+        }
+    }
+
+    .card {
+        background-color: $color-negro;
+        border: 2px solid $color-naranja;
+
+            h4 {
+                color: $color-naranja;
+                font-family: $text-titulos;
+                margin-top: 10px;
+            }
+
+            p {
+                color: $color-blanco;
+            }
+
+            a {
+                background-color: $color-negro;
+                color: $color-naranja;
+                border: 2px solid $color-naranja;
+                    &:hover {
+                        background-color: $color-naranja;
+                        color: $color-negro;
+                        border-color: $color-negro;
+                    }
+            }
+    }
+}

@@ -1,0 +1,28 @@
+//ajustes generales
+i {
+    color: $color-blanco;
+    font-size: 1.2em;
+}
+
+hr {
+    border-color: $color-naranja;
+    border-width: 2px;
+    border-style: solid;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+// animaciones
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

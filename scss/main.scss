@@ -1,0 +1,15 @@
+//font-face fuente
+@font-face {
+    font-family: heavitas;
+    src: url(../fuentes/Heavitas.ttf);
+}
+//imports
+@import "_vars";
+@import "_mixins";
+@import "_generales";
+@import "_content";
+@import "_index";
+@import "_productos";
+@import "_contacto";
+@import "_error404";
+@import "_medias";

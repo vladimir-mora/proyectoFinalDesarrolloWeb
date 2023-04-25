@@ -1,0 +1,81 @@
+// medias de index
+
+  @media (min-width: 500px) {
+    #main {
+        .grilla {
+            .contenedor {
+                grid-column: 3 / 9;
+            }
+        }
+    }
+  }
+
+  @media (min-width: 768px) {
+    #main {
+        .grilla {
+            .contenedor {
+                h2 {
+                    font-size: 3em;
+                }
+
+                p {
+                    font-size: 1.3em;
+                }
+
+                a {
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+  }
+
+  @media (min-width: 600px) {
+    footer {
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                font-size: 1em;
+                margin-left: 30px;
+            }
+
+            .iconos {
+                margin-right: 30px;
+
+                .fa-brands {
+                    font-size: 1.5em;
+                    padding-right: 30px;
+                }
+            }
+        }
+    }
+  }
+
+//   medias de pag contacto
+@media (max-width: 500px) {
+    main {
+        .hero {
+            .conten_hero {
+                margin-left: 10px;
+            }
+        }
+
+        .contact {
+            .conten {
+                i {
+                    font-size: 2.5em;
+                }
+
+                h4 {
+                    font-size: 1.5em;
+                }
+
+                p {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}

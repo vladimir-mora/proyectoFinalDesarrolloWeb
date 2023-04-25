@@ -1,0 +1,418 @@
+@font-face {
+  font-family: heavitas;
+  src: url(../fuentes/Heavitas.ttf);
+}
+.foto, .foto-pre_growth, .foto-pre_body, .foto-pre_xtreme, .foto-pre_ultra, .foto-pre_nutrilab, .foto-pre_ena, .foto-pre_gentech, .foto-pre_gold, .foto-pre_star, .foto-proteina_growth, .foto-proteina_body, .foto-proteina_xtreme, .foto-proteina_ultra, .foto-proteina_nutrilab, .foto-proteina_ena, .foto-proteina_gentech, .foto-proteina_gold, .foto-proteina_star, .foto-creatina_growth, .foto-creatina_body, .foto-creatina_xtreme, .foto-creatina_ultra, .foto-creatina_nutrilab, .foto-creatina_ena, .foto-creatina_gentech, .foto-creatina_gold, .foto-creatina_star {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+}
+
+.foto-creatina_star {
+  background-image: url(../img/creatinas/star.jpg);
+}
+
+.foto-creatina_gold {
+  background-image: url(../img/creatinas/gold.jpg);
+}
+
+.foto-creatina_gentech {
+  background-image: url(../img/creatinas/gentech.jpg);
+}
+
+.foto-creatina_ena {
+  background-image: url(../img/creatinas/ena.jpg);
+}
+
+.foto-creatina_nutrilab {
+  background-image: url(../img/creatinas/nutrilab.jpg);
+}
+
+.foto-creatina_ultra {
+  background-image: url(../img/creatinas/ultra.jpg);
+}
+
+.foto-creatina_xtreme {
+  background-image: url(../img/creatinas/xtreme.jpg);
+}
+
+.foto-creatina_body {
+  background-image: url(../img/creatinas/body.jpg);
+}
+
+.foto-creatina_growth {
+  background-image: url(../img/creatinas/growth.jpg);
+}
+
+.foto-proteina_star {
+  background-image: url(../img/proteinas/star.jpg);
+}
+
+.foto-proteina_gold {
+  background-image: url(../img/proteinas/gold.jpg);
+}
+
+.foto-proteina_gentech {
+  background-image: url(../img/proteinas/gentech.jpg);
+}
+
+.foto-proteina_ena {
+  background-image: url(../img/proteinas/ena.jpg);
+}
+
+.foto-proteina_nutrilab {
+  background-image: url(../img/proteinas/nutrilab.jpg);
+}
+
+.foto-proteina_ultra {
+  background-image: url(../img/proteinas/ultra.jpg);
+}
+
+.foto-proteina_xtreme {
+  background-image: url(../img/proteinas/xtreme.jpg);
+}
+
+.foto-proteina_body {
+  background-image: url(../img/proteinas/body.jpg);
+}
+
+.foto-proteina_growth {
+  background-image: url(../img/proteinas/growth.jpg);
+}
+
+.foto-pre_star {
+  background-image: url(../img/pre-entrenos/star.jpg);
+}
+
+.foto-pre_gold {
+  background-image: url(../img/pre-entrenos/gold.jpg);
+}
+
+.foto-pre_gentech {
+  background-image: url(../img/pre-entrenos/gentech.jpg);
+}
+
+.foto-pre_ena {
+  background-image: url(../img/pre-entrenos/ena.jpg);
+}
+
+.foto-pre_nutrilab {
+  background-image: url(../img/pre-entrenos/nutilab.jpg);
+}
+
+.foto-pre_ultra {
+  background-image: url(../img/pre-entrenos/ultra.jpg);
+}
+
+.foto-pre_xtreme {
+  background-image: url(../img/pre-entrenos/xtreme.jpg);
+}
+
+.foto-pre_body {
+  background-image: url(../img/pre-entrenos/body.jpg);
+}
+
+.foto-pre_growth {
+  background-image: url(../img/pre-entrenos/growth.jpg);
+}
+
+i {
+  color: #f2f2f2;
+  font-size: 1.2em;
+}
+
+hr {
+  border-color: #f24535;
+  border-width: 2px;
+  border-style: solid;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+body {
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+}
+
+header {
+  background-color: #f24535;
+}
+header p {
+  font-weight: bold;
+}
+
+nav .logo {
+  font-family: heavitas;
+  color: #f24535;
+}
+nav .links {
+  font-size: 1.5em;
+  color: #f2f2f2;
+  font-weight: 500;
+}
+nav .links:hover {
+  color: #f24535;
+}
+nav hr {
+  border: none;
+  height: 1px;
+  background-color: #f24535;
+}
+@media (min-width: 768px) {
+  nav hr {
+    display: none;
+  }
+}
+
+footer .contenedor {
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .contenedor p {
+  margin-top: 15px;
+  margin-left: 12px;
+  font-size: 0.9em;
+}
+footer .contenedor .iconos {
+  width: auto;
+}
+footer .contenedor .iconos .fa-brands {
+  padding-right: 15px;
+  cursor: pointer;
+}
+footer .contenedor .iconos .fa-brands:hover {
+  color: #f24535;
+}
+
+#contenedor .container h2 {
+  color: #f24535;
+}
+#contenedor .card {
+  background-color: #0d0d0d;
+  border: 2px solid #f24535;
+}
+#contenedor .card h4 {
+  color: #f24535;
+  font-family: heavitas;
+  margin-top: 10px;
+}
+#contenedor .card p {
+  color: #f2f2f2;
+}
+#contenedor .card a {
+  background-color: #0d0d0d;
+  color: #f24535;
+  border: 2px solid #f24535;
+}
+#contenedor .card a:hover {
+  background-color: #f24535;
+  color: #0d0d0d;
+  border-color: #0d0d0d;
+}
+
+#main {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/background.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+#main .grilla {
+  height: 79vh;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  text-align: center;
+}
+#main .grilla .contenedor {
+  grid-column: 3/10;
+  grid-row: 2/5;
+}
+#main .grilla .contenedor h2 {
+  color: #f24535;
+  font-family: heavitas;
+  font-size: 2.2em;
+}
+#main .grilla .contenedor p {
+  font-size: 1.1em;
+}
+@media (max-width: 1000px) {
+  #main .grilla .contenedor p br {
+    display: none;
+  }
+}
+#main .grilla .contenedor a {
+  text-decoration: none;
+  color: #f24535;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+#main .grilla .contenedor button {
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #f24535;
+  padding: 8px 12px;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+#main .grilla .contenedor button:hover {
+  background-color: #0d0d0d;
+  transform: scale(1.1);
+  animation: pulse 1s infinite;
+}
+
+main .container h2 {
+  color: #f24535;
+}
+main .imagenes {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+main .cartas {
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+  height: 100%;
+}
+main .cartas h3 {
+  color: #f24535;
+  font-family: heavitas;
+  margin-top: 10px;
+}
+main .cartas a {
+  background-color: #0d0d0d;
+  color: #f24535;
+  border: 2px solid #f24535;
+}
+main .cartas a:hover {
+  background-color: #f24535;
+  color: #0d0d0d;
+  border-color: #0d0d0d;
+}
+
+main .hero {
+  height: 83vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/somos.jpg);
+  background-position: center;
+  background-size: cover;
+}
+main .hero .conten_hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin-left: 100px;
+}
+main .hero .conten_hero h2 {
+  font-family: heavitas;
+}
+main .contact {
+  background-color: #f24535;
+  color: #0d0d0d;
+}
+main .contact .conten {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+main .contact .conten i {
+  margin-right: 12px;
+  padding-top: 15px;
+  font-size: 3em;
+}
+main .contact .conten h4 {
+  font-size: 2em;
+  font-weight: 500;
+}
+main .contact .conten p {
+  color: #f2f2f2;
+  font-size: 1.2em;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+}
+.error a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #f24535;
+  font-size: 2em;
+  margin-top: 50px;
+}
+.error a:hover {
+  color: #f2f2f2;
+}
+.error img {
+  width: 70vw;
+  height: 60vh;
+}
+
+@media (min-width: 500px) {
+  #main .grilla .contenedor {
+    grid-column: 3/9;
+  }
+}
+@media (min-width: 768px) {
+  #main .grilla .contenedor h2 {
+    font-size: 3em;
+  }
+  #main .grilla .contenedor p {
+    font-size: 1.3em;
+  }
+  #main .grilla .contenedor a {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 600px) {
+  footer .contenedor {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .contenedor p {
+    font-size: 1em;
+    margin-left: 30px;
+  }
+  footer .contenedor .iconos {
+    margin-right: 30px;
+  }
+  footer .contenedor .iconos .fa-brands {
+    font-size: 1.5em;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 500px) {
+  main .hero .conten_hero {
+    margin-left: 10px;
+  }
+  main .contact .conten i {
+    font-size: 2.5em;
+  }
+  main .contact .conten h4 {
+    font-size: 1.5em;
+  }
+  main .contact .conten p {
+    font-size: 1em;
+  }
+}
+
+/*# sourceMappingURL=nuevo.css.map */

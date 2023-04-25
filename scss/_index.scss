@@ -1,0 +1,60 @@
+// los estilos de la pag index
+#main{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ) ,url(../img/background.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    .grilla {
+        height: 79vh;
+        display: grid;
+        grid-template-columns: repeat(11, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        text-align: center;
+
+        .contenedor {
+            grid-column: 3 / 10;
+            grid-row: 2 / 5;
+
+            h2 {
+                color: $color-naranja;
+                font-family: $text-titulos;
+                font-size: 2.2em;
+            }
+
+            p {
+                font-size: 1.1em;
+
+                br {
+                    @media (max-width: 1000px) {
+                        display: none;
+                    }
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: $color-naranja;
+                font-weight: $text-bold;
+                font-size: 1.1em;
+            }
+
+            button {
+                background-color: transparent;
+                border-radius: 10px;
+                border: 1px solid $color-naranja;
+                padding: 8px 12px;
+                transform: scale(1);
+                transition: transform 0.2s ease-in-out;
+                    &:hover {
+                        background-color: $color-negro;
+                        transform: scale(1.1);
+                        animation: pulse 1s infinite;
+                }
+            }
+        }
+    }
+}
