@@ -8,7 +8,7 @@ Para la entrega final de mi proyecto, utilicé principalmente Bootstrap, aunque 
 Espero que les guste mi trabajo final, ya que me llevó muchas horas de esfuerzo y dedicación, y pasé por algunas frustraciones en el camino jajaja. Agradezco enormemente todas las enseñanzas y el apoyo que he recibido en el proceso. ¡Saludos y muchas gracias de nuevo!
 
 
-PS: Muchas horas silla en este curso jaja.
+PS: Muchas horas silla en este curso jajaja.
 
 <!-- link del repo -->
 https://github.com/vladimir-mora/PF-Escalante.git
